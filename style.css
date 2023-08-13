@@ -1,0 +1,222 @@
+/* Estilos generales */
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: font-family 'Montserrat', sans-serif;
+    width:auto;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 24, 80);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de la barra de navegación */
+
+header {
+
+  
+  
+    height: 125px;
+    background-color: black;
+    color: lightcoral;
+    padding: 0;
+    
+}
+
+
+  
+
+
+    
+
+nav ul {
+
+    font-size: larger;
+   
+    list-style: none;
+    padding: 60px 0; 
+    text-align: center;
+   
+    margin: 0 auto; 
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos del logo */
+header #logo {
+    margin-left: 0;
+    float: left;
+    margin-right: 0px;
+    
+    
+    
+}
+
+
+/* Ajuste de tamaño para el logo */
+.logo { 
+    position: static;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    
+}
+header #logo img {
+    
+    max-width: auto;
+    height: auto;
+}
+
+#slo { 
+    background-color: black;
+    color: white; 
+    font-size: 40px;
+    text-align: center;
+    height: 55px;
+}
+
+
+/* Estilos del homepage */
+
+
+#homepage {
+    text-align: center; 
+    background-image: url("Herp.jpg");
+    font-size: x-large;
+    width: auto;
+    height: 540px;
+    padding: 50px 0;
+    margin: 0 auto; 
+    color:#fff;
+      
+     
+}
+
+
+.Bienvenida { 
+    text-shadow: black;  
+    text-align: center;
+    color:#fff;
+    width: auto;
+    
+}
+
+#Desc { 
+    text-align: center;
+    color:#fff;
+    width: auto;
+}
+
+#Objectives { 
+    text-align: center;
+    color:#fff;
+    width: auto;
+}
+
+
+
+
+
+
+/* Estilos de la sección de búsqueda de productos y comparación de precios */
+
+#product-search,
+#price-comparison {
+    font-size: xx-large;
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar contenido interno */
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 9px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#category { 
+    width: 300px;
+    height: 50px;
+    font-size: large;
+
+}
+
+#brand {
+    width: 300px;
+    height: 50px;
+    font-size: large;
+}
+
+#submit {
+    width: 300px;
+    height: 50px;
+    font-size: large;
+}
+
+
+
+/* Estilos para el carrusel */
+#carousel {
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar contenido interno */
+    overflow: scroll;
+}
+
+.carousel-slide {
+    display: none;
+    text-align: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: 250px;
+}
+
+/* Estilos para los resultados de comparación de precios*/
+.results-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+.product ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product ul li {
+    margin: 5px 0;
+}
+
+.product .logo img {
+    max-width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+/* Otros estilos según tus preferencias */
