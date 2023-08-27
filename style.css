@@ -218,5 +218,68 @@ header #logo img {
 }
 
 
+#abarrotes { 
+    background-color: black;
+    color: white; 
+    font-size: 40px;
+    text-align: center;
+    height: 55px
+}
+#price { 
+    color: white; 
+    font-size: 20px;
+    text-align: center;  
+  
+    height: 30px; 
+  
+}
+#Doritos {
+    align-items: center ;
+    color: white; 
+    font-size: 40px;
+   flex: content;
+    height: 55px; 
+    
+    
+    
+
+}
+
+
+
+#AvenaQ {
+    align-items: center ;
+    color: white; 
+    font-size: 40px;
+   flex: content;
+    height: 55px;  
+}
+
+
+h3 {
+    align-items: center ;
+    color: white; 
+    font-size: 40px;
+   flex: content;
+    height: 55px;  
+}   
+
+
+
+#price-result {
+    text-decoration: underline;
+    color: white; 
+    font-size: 35px;
+    text-align: center;
+    height: 55px; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+    
+
+    
 
 /* Otros estilos según tus preferencias */
