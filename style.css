@@ -93,7 +93,8 @@ header #logo img {
 
 #homepage {
     text-align: center; 
-    background-image: url("Herp.jpg");
+    ;
+    background-image: url("Photos/Herp.jpg");
     font-size: x-large;
     width: auto;
     height: 540px;
@@ -115,6 +116,7 @@ header #logo img {
 
 #Desc { 
     text-align: center;
+    
     color:#fff;
     width: auto;
 }
@@ -234,6 +236,7 @@ header #logo img {
   
 }
 #Doritos {
+    
     align-items: center ;
     color: white; 
     font-size: 40px;

@@ -36,11 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
         // Aquí un ejemplo simplificado:
 
         const products = [
-            { name: "La Colonia", prices: [10.99, 9.99, 11.49], logo: "La colonia logo.jpeg" },
-            { name: "Paiz", prices: [5.99, 6.49, 5.79], logo: "Paiz logo.jpeg" },
-            { name: "Walmart", prices: [8.49, 7.99, 8.79], logo: "Wallmart logo.png" },
+            { name: "La Colonia", prices: [10.99, ], logo: "Photos/La colonia logo.jpeg" },
+            { name: "Paiz", prices: [5.99, ], logo: "Photos/Paiz logo.jpeg" },
+            { name: "Walmart", prices: [8.49, ], logo: "Photos/Wallmart logo.png" },
+            { name: "Maxidespensa", prices: [7.49, ], logo: "Photos/Maxi despensa.png" },
             // ...
         ];
+        
 
         displayResults(products);
     }
